@@ -1,7 +1,7 @@
 # LUXE
 
 <p align="center">
-  <img src="the code\Image\luxe-logo.png" alt="logo">
+  <img src="the code\Image\luxe-logo.png" alt="logo" width="400" height="300">
 </p>
 
 
@@ -35,7 +35,7 @@ Here are some screenshots of the app in action:
 ## languages used 
 
 <p align="left">
-  <img src="pic/html.png" alt="html" width="40" height="30" >   <img src="pic/css.png" alt="css" width="40" height="30"> <img src="pic/PHP-logo.svg.png" alt="php" width="40" height="30">  
+  <img src="screenshots/html.png" alt="html" width="40" height="30" >   <img src="screenshots/css.png" alt="css" width="40" height="30"> <img src="screenshots/java.png" alt="php" width="40" height="30">  
 </p>
 
 
