@@ -1,0 +1,203 @@
+html.red footer {
+    background-color: #d38080;
+}
+
+html.red a {
+    color: #d38080;
+}
+
+html.red body, html.red div, html.red main {
+    background: #fddddd;
+}
+
+html.red button.btn {
+    background-color: #a03030;
+}
+
+html.red .cont_breadcrumbs_2 > ul > li:last-child {
+    background-color: #a03030;
+}
+
+.menu-btn {
+    display: none;
+    margin-left: 20px;
+}
+
+.nav-btns-container {
+    display: flex;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+#z5 {
+    display: none;
+}
+@media (max-width: 851px) {
+  .nav {
+      display: none;
+      position: absolute;
+      z-index: 999;
+      background-color: white;
+      right: 0;
+      top: 50px;
+  }
+
+  .nav li {
+      display: block;
+  }
+
+  #z5 {
+      display: none;
+  }
+  .nav a {
+      position: unset;
+  }
+
+  .menu-btn {
+      display: block;
+  }
+
+  footer .menu {
+      margin-top: 150px !important;
+  }
+}
+
+/*pyment option**********************************************************************************/
+
+.PaymentOptinTitle {
+    text-align: center;
+    margin: 10px;
+    
+}
+.PaymentOptinTitle  h1{
+font-weight:bold;
+font-size: 120%;
+color: #fff;
+text-shadow:  2px 2px 8px #7030a0
+}
+
+.PaymentOption{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin:  0%;
+}
+
+.o-box{
+    width: 200%;
+    height: 10%;
+    
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    
+    
+}
+
+.PaymentOption img{
+    text-align: center;
+    display: block;
+    
+
+}
+
+
+.payment{
+    position: absolute; 
+    right: 8%;
+     bottom: 35%;
+
+}
+
+
+/*footer css*/
+          
+        
+.Contact h1 { 
+    font-weight:bold;
+    font-size: 120%;
+    color: #fff;
+    text-shadow:  2px 2px 8px #7030a0;
+    position: absolute; 
+    left: 9%;
+     top:30px;
+  }
+  .social_icon {
+position: absolute; 
+right: 40%;
+ top:40px;
+
+  }
+  footer {
+    position: absolute;
+    width: 100%;
+    background-color: #CCA8D8;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0%;
+}
+
+
+footer .social_icon , footer .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+
+footer .social_icon li ,
+footer .menu li {
+    list-style: none;
+}
+
+footer .social_icon li a {
+    font-size: 2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.social_icon img,
+.social img {
+    width: 40px;
+    height: 40px;
+}
+.social .twitt,
+.social_icon .twitt {
+    width: 50px;
+    height: 50px;
+}
+
+footer .social_icon li a:hover {
+    transform: translateY(-10px);
+}
+
+footer .menu li a {
+    font-size: 1.3em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    opacity: 1;
+}
+
+footer .menu li a:hover {
+    opacity: 0.70;
+}
+
+footer p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
